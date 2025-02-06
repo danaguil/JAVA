@@ -5,12 +5,13 @@ public class Main {
 
     public static void main(String[] args) {
         frame1 = new JFrame("Shape GUI Practice");
-        frame1.setSize(400, 800);
+        frame1.setSize(370, 500);
 
-        draw object = new draw();
+        gridLayout object = new gridLayout();
         object.drawing();
-
         frame1.add(object);
+
+
 
         frame1.setVisible(true);
         frame1.setResizable(false);
